@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworkActivityLogger (3.0.0):
+    - AFNetworking/NSURLSession (~> 3.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+
+DEPENDENCIES:
+  - AFNetworkActivityLogger (from `https://github.com/jshier/AFNetworkActivityLogger`, branch `3_0_0`)
+  - AFNetworking
+
+EXTERNAL SOURCES:
+  AFNetworkActivityLogger:
+    :branch: '3_0_0'
+    :git: https://github.com/jshier/AFNetworkActivityLogger
+
+CHECKOUT OPTIONS:
+  AFNetworkActivityLogger:
+    :commit: be1a196c43a3de2d81a436cb70fd39d6ada9c35d
+    :git: https://github.com/jshier/AFNetworkActivityLogger
+
+SPEC CHECKSUMS:
+  AFNetworkActivityLogger: cdf25024fedfaa5a0de3c197b67bab650ecc3d21
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+
+PODFILE CHECKSUM: 0878c59416321554f7351145b6b1cac51b5f294b
+
+COCOAPODS: 1.0.0
